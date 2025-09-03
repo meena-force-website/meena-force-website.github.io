@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forces Project</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #ffecec; /* soft pink background */
+      margin: 0;
+      padding: 0;
+    }
+
+    /* ---- Header ---- */
+    header {
+      text-align: center;
+      padding: 30px 10px;
+    }
+
+    header h1 {
+      font-size: 48px;
+      font-weight: 900;
+      color: #b34747; /* dark reddish */
+      margin: 0;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+    }
+
+    header h2 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-top: -10px;
+      color: #c05b5b;
+      text-transform: uppercase;
+    }
+
+    header p {
+      background-color: #f5bcbc;
+      display: inline-block;
+      padding: 15px 25px;
+      border-radius: 15px;
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    /* ---- Content Sections ---- */
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 0 15px;
+    }
+
+    .box {
+      background-color: #f8dada;
+      border-radius: 20px;
+      padding: 20px;
+      margin: 0 auto 40px auto;
+      box-shadow: 2px 4px 6px rgba(0,0,0,0.1);
+      width: 80%;
+      transition: transform 0.2s ease;
+    }
+
+    .box:hover {
+      transform: scale(1.02);
+    }
+
+    /* Zig-zag effect */
+    .box:nth-child(odd) {
+      margin-left: 0;
+      margin-right: auto;
+    }
+
+    .box:nth-child(even) {
+      margin-left: auto;
+      margin-right: 0;
+    }
+
+    .box h3 {
+      background-color: #e4a0a0;
+      padding: 10px 15px;
+      border-radius: 12px;
+      display: inline-block;
+      margin-bottom: 15px;
+      font-size: 20px;
+    }
+
+    .box p {
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.4;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Physics</h2>
+    <h1>Forces</h1>
+    <p>This website introduces and dives into the Physics 1 unit of Forces and Newton's Laws of Motion</p>
+  </header>
+
+  <div class="container">
+    <div class="box">
+      <h3>Causes of Motion</h3>
+      <p>Explain what causes objects to move or stay in motion.</p>
+    </div>
+
+    <div class="box">
+      <h3>Definition of a Force</h3>
+      <p>A force is a push or pull acting upon an object due to its interaction with another object.</p>
+    </div>
+
+    <div class="box">
+      <h3>What Do Forces Do?</h3>
+      <p>Forces can change the motion, shape, or state of rest of an object.</p>
+    </div>
+
+    <div class="box">
+      <h3>Categories of Forces</h3>
+      <p>Contact forces vs. non-contact forces.</p>
+    </div>
+
+    <div class="box">
+      <h3>Catalogue of Forces</h3>
+      <p>List and describe the 9 types of forces.</p>
+    </div>
+
+    <div class="box">
+      <h3>Newton’s 3 Laws</h3>
+      <p>State and explain the three laws, including F = m · a for the 2nd law.</p>
+    </div>
+
+    <div class="box">
+      <h3>Free-Body Diagrams</h3>
+      <p>How to draw FBDs and the rules for construction.</p>
+    </div>
+
+    <div class="box">
+      <h3>Practice Problems</h3>
+      <p>Two sample problems with video solution placeholders.</p>
+    </div>
+  </div>
+
+</body>
+</html>
